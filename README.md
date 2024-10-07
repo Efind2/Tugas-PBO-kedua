@@ -22,6 +22,7 @@ saya menggunakan tiga interface yaitu PenulisLepas, PengajarLes dan Mahasiswa ya
     }
 ## Kode this, super dan penggunaan Contruktor
 semua implementasi this, super dan Construktor ada pada method Anak pada kode ini
+    
     public class Anak extends Ayah implements Mahasiswa, PengajarLes, PenulisLepas {
     public void makan(){
         System.out.println("Sedang Makan Bakso");
@@ -68,6 +69,7 @@ semua implementasi this, super dan Construktor ada pada method Anak pada kode in
      */
     public void setBermain(String bermain) {
         this.bermain = bermain;
+    }
     }
 ## Kode Penggunaan Casting
 disini saya melakukan casting pada variabel uang yang ber type data int saya rubah menjadi type  data double
