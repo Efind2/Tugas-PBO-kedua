@@ -73,9 +73,11 @@ semua implementasi this, super dan Construktor ada pada method Anak pada kode in
     }
 ## Kode Penggunaan Casting
 disini saya melakukan casting pada variabel uang yang ber type data int saya rubah menjadi type  data double
+
     int uang = 20000;
     System.out.println("Aku memiliki uang "+uang);
     double uangku = (double) uang;
     System.out.println("aku memiliki uang sejumlah " + uangku);
+    
 Cukup ini yang bisa yang jelaskan semoga mudah dipahami terimakasih 😁
 
